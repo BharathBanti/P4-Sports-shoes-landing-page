@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bharath Dasari">
+    <meta name="description" content="A product landing page with only HTML and CSS">
+    <meta name="keywords" content="landing page, product page, html practice, html and css landing page">
+    <link rel="icon" href="./Media/sneakers.png">
+    <title>Sports Shoe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- The Header -->
+    <header aria-label="heading">
+        <!-- The Navbar -->
+        <div class="navbar">
+            <div class="logo_brandname">
+                <img src="./Media/sneakers.png" alt="sneakers logo">
+                <span>Sportshoe.com</span>
+            </div>
+            <div class="navbar_search">
+                <input type="text" name="search" id="search" placeholder="Search over 15,000+ products">
+                <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+            </div>
+            <div class="navbar_tools">
+                <i class="fa-solid fa-globe"></i>
+                <i class="fa-solid fa-circle-user"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+        </div>
+        <!-- The Header Options -->
+        <div class="header_options">
+            <a href="#">women's</a>
+            <a href="#">Kid's</a>
+            <a href="#">Run</a>
+            <a href="#">Trail</a>
+            <a href="#">Hike</a>
+            <a href="#">Adventure</a>
+            <a href="#">Sports</a>
+            <a href="#">Brands</a>
+            <a href="#">Sustainability</a>
+            <a href="#">Advice</a>
+            <a href="#">Partners</a>
+            <a href="#">Gifts</a>
+            <a href="#">Order tracking</a>
+            <a href="#">Delivery</a>
+            <a href="#">Returns</a>
+        </div>
+    </header>
+
+    <!-- The Main -->
+    <main aria-label="Main content" role="main">
+        <div class="banner">
+            <div class="banner_info">
+                <h3>Comfort of the year</h3>
+                <h1>We bring you <span>The Best</span> Products!</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium fugit quasi pariatur enim
+                    assumenda modi aspernatur soluta nam ad! Ipsam, eos eaque soluta veniam sequi quibusdam provident
+                    sit voluptas esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nemo, vel
+                    pariatur, possimus tenetur inventore adipisci obcaecati recusandae quam mollitia veniam. Officiis
+                    provident, vero velit tenetur laboriosam vitae et cum? Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Praesentium accusamus culpa explicabo cumque amet dolor quos earum dicta possimus
+                    esse, velit corporis eius error adipisci eligendi vitae nulla vel doloribus.</p>
+                <button type="button" aria-label="banner show more button">show more</button>
+            </div>
+            <div class="banner_images">
+                <img class="img_a" src="./Media/img1.jpg" alt="banner image 1">
+                <img class="img_b" src="./Media/img2.jpg" alt="banner image 2">
+                <img class="img_c" src="./Media/img3.jpg" alt="banner image 3">
+                <img class="img_d" src="./Media/img4.jpg" alt="banner image 4">
+                <img class="img_e" src="./Media/img5.jpg" alt="banner image 5">
+                <img class="img_f" src="./Media/img6.jpg" alt="banner image 6">
+            </div>
+        </div>
+
+        <!-- The Shop by section -->
+        <section class="shop-by-section">
+            <div class="shop-by-section_head">
+                <h1>Shop by</h1>
+                <a href="#">See more</a>
+            </div>
+            <div class="shop-by">
+                <div>
+                    <img src="./Media/shopb1.avif" alt="shop-by image-1">
+                    <h1>Running</h1>
+                </div>
+                <div>
+                    <img src="./Media/shopb2.avif" alt="shop-by image-2">
+                    <h1>Trail</h1>
+                </div>
+                <div>
+                    <img src="./Media/shopb3.avif" alt="shop-by image-3">
+                    <h1>Hike</h1>
+                </div>
+                <div>
+                    <img src="./Media/shopb4.avif" alt="shop-by image-4">
+                    <h1>Marathon</h1>
+                </div>
+                <div>
+                    <img src="./Media/shopb5.avif" alt="shop-by image-5">
+                    <h1>Hyrox</h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- The new section -->
+        <section class="new-shoe-section">
+            <div class="new-shoe-section_head">
+                <h1>New</h1>
+                <a href="#">See more</a>
+            </div>
+            <div class="new-shoe">
+                <div>
+                    <img src="./Media/new-shoe1.avif" alt="shop-by image-1">
+                    <div class="new-shoe_info">
+                        <h1>The face</h1>
+                        <p>Summit Pro ||</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./Media/new-shoe2.avif" alt="shop-by image-2">
+                    <div class="new-shoe_info">
+                        <h1>New balance</h1>
+                        <p>Rebelv4</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./Media/new-shoe3.avif" alt="shop-by image-3">
+                    <div class="new-shoe_info">
+                        <h1>Nike</h1>
+                        <p>Peagasus</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./Media/new-shoe4.avif" alt="shop-by image-4">
+                    <div class="new-shoe_info">
+                        <h1>Adidas</h1>
+                        <p>Adios Pro</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./Media/new-shoe5.avif" alt="shop-by image-5">
+                    <div class="new-shoe_info">
+                        <h1>Puma</h1>
+                        <p>Mag Max</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Video section -->
+    <section class="video">
+        <video src="./Media/video1.mp4" autoplay controls muted loop></video>
+        <div class="video-info">
+            <h3>Brooks</h3>
+            <h1>Adrenaline GTS 25</h1>
+            <button class="transparent-button" type="button" aria-label="button">Shop now</button>
+        </div>
+    </section>
+
+    <!-- Choose section -->
+    <section class="choose_section-container">
+        <div class="choose_section-head">
+            <h1>Choose here</h1>
+            <a href="#">See more</a>
+        </div>
+        <div class="choose_section-body">
+            <div class="choose-mens">
+                <img src="./Media/choose1.avif" alt="choose-men's image">
+                <div>
+                    <h3>Men's</h3>
+                    <button class="transparent-button" type="button" aria-label="choose-button">Shop Shoes</button>
+                    <button class="transparent-button" type="button" aria-label="choose-button">Shop Apparel</button>
+                    <button class="transparent-button" type="button" aria-label="choose-button">Shop
+                        Accessories</button>
+                </div>
+            </div>
+            <div class="choose-womens">
+                <img src="./Media/choose2.avif" alt="choose-men's image">
+                <div>
+                    <h3>Women's</h3>
+                    <button class="transparent-button" type="button" aria-label="choose-button">Shop Shoes</button>
+                    <button class="transparent-button" type="button" aria-label="choose-button">Shop Apparel</button>
+                    <button class="transparent-button" type="button" aria-label="choose-button">Shop
+                        Accessories</button>
+                </div>
+            </div>
+            <div class="choose-kids">
+                <img src="./Media/choose3.avif" alt="choose-men's image">
+                <div>
+                    <h3>Kid's</h3>
+                    <button class="transparent-button" type="button" aria-label="choose-button">Shop Shoes</button>
+                    <button class="transparent-button" type="button" aria-label="choose-button">Shop Apparel</button>
+                    <button class="transparent-button" type="button" aria-label="choose-button">Shop
+                        Accessories</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Trending Section -->
+    <section class="trending_section-container">
+        <div class="trending_section-head">
+            <h1>Trending now</h1>
+            <a href="#">See more</a>
+        </div>
+        <div class="trending_section-body">
+            <div class="trending">
+                <img src="./Media/trending1.avif" alt="trending shoe's image">
+                <div>
+                    <p>Puma</p>
+                    <h2>MagMax 2</h2>
+                </div>
+            </div>
+            <div class="trending">
+                <img src="./Media/trending2.avif" alt="trending shoe's image">
+                <div>
+                    <p>Mizuno</p>
+                    <h2>Neo Vis</h2>
+                </div>
+            </div>
+            <div class="trending">
+                <img src="./Media/trending3.avif" alt="trending shoe's image">
+                <div>
+                    <p>saucony</p>
+                    <h2>Peregrine 16</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- latest article section -->
+    <section class="lastest-article-section-container">
+        <div class="latest-article-head">
+            <h1>Latest Articles</h1>
+            <a href="#">See more</a>
+        </div>
+        <div class="latest-article-body">
+            <div>
+                <img src="./Media/article1.avif" alt="article image 1">
+                <div class="article-info">
+                    <h2>REVIEW: ASICS GEL-NIMBUS<sup>TM</sup> 28</h2>
+                    <p>The most comfortable shoe in the ASICS range, the GEL-NIMBUS<sup>TM</sup> 28 is a versatile...
+                    </p>
+                    <div>
+                        <p>4 December 2025</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./Media/article2.avif" alt="article image 2">
+                <div class="article-info">
+                    <h2>Christmas Recipe: Swedish</h2>
+                    <p>Start the festive season right with an easy, Swedish - inspired Christmas cinnamo...</p>
+                    <div>
+                        <p>4 December 2025</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./Media/article3.avif" alt="article image 3">
+                <div class="article-info">
+                    <h2>REVIEW: Altra FWD VIA 2</h2>
+                    <p>Our first look at the Altra FWD VIA 2, Altra's daily road shoe designed for max cushion and max
+                        comfort.</p>
+                    <div>
+                        <p>3 December 2025</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./Media/article4.avif" alt="article image 4">
+                <div class="article-info">
+                    <h2>FIRST LOOK: New Balance 1080v15</h2>
+                    <p>Our first look at the 1080v15, New Balance's latest iteration of their premium everyday running
+                        shoe.
+                    </p>
+                    <div>
+                        <p>28 November 2025</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" aria-label="button">visit advice hub</button>
+    </section>
+
+    <!-- Video section -->
+    <section class="video">
+        <video src="./Media/video2.mp4" autoplay controls muted loop></video>
+        <div class="video-info">
+            <h3>ASICS</h3>
+            <h1>Novablast 5 Ekiden</h1>
+            <button class="transparent-button" type="button" aria-label="button">Shop now</button>
+        </div>
+    </section>
+
+    <!-- Last info section -->
+    <section class="last_info-section-container">
+        <div class="last_info_main">
+            <h1>Lace up for your next adventure with SportsShoes.com - Europe's #1 performance destination.</h1>
+            <!-- paragraph - 1 -->
+            <p>Whether you're chasing a PB on the road, pushing your limits on the track, or tackling rugged trails,
+                we're here to power every step of your journey. With 40 years of expertise and over 15,000 products, we
+                bring you the latest innovations from the world's biggest sports brands. From cutting-edge men's and
+                women's running shoes to high-tech hiking boots, lightweight walking shoes, performance apparel and
+                essential outdoor gear, we've got everything you need to go faster, further and stronger. </p>
+            <!-- paragraph - 2 -->
+            <p>But we're not just here to sell gear, we're here to inspire. That's why we partner with elite athletes,
+                coaches, and gear experts to bring you training tips, in-depth reviews, and 1,000+ expert articles.
+                Experience the most epic challenges, inspiring stories, and game-changing insights.</p>
+            <!-- paragraph - 3 -->
+            <p>We are here to support every step of your journey, to revel in the hard miles and glory in the fast ones.
+                For the early morning, late-night sessions, long miles and relentless dedication. No shortcuts, no
+                hacks, just grit, passion and the greatest gear on the market.</p>
+        </div>
+        <div class="last_info-links">
+            <h1>Men's Running Shoes</h1>
+            <h1>Women's Running Shoes</h1>
+            <h1>Men's Walking Shoes & Boots</h1>
+            <h1>Women's Walking Shoes & Boots</h1>
+            <h1>Men's Trail Running Shoes</h1>
+            <h1>Women's Trail Running Shoes</h1>
+        </div>
+    </section>
+
+    <!-- Rating Section -->
+    <section class="rating-section-container">
+        <div class="rating-section-main">
+            <div class="rating-container">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-circle-check"></i>
+                    <span>Verified</span>
+                    <div>
+                        <p><b>Amazing Value</b></p>
+                        <p>Amazing value, delivered on time thank you</p>
+                    </div>
+                </div>
+                <span>Tracey Hadwin, 4 hours ago</span>
+            </div>
+            <div class="rating-container">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-circle-check"></i>
+                    <span>Verified</span>
+                    <div>
+                        <p><b>Best Running Company Ever</b></p>
+                        <p>The products are always good, the descirptions always accurate and the colours are as...</p>
+                    </div>
+                </div>
+                <span>Hilrunner, 4 hours ago</span>
+            </div>
+            <div class="rating-container">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <div>
+                        <p><b>Nikol's customer service was a...</b></p>
+                        <p>Nikol's customer service was awesome Super helpful, super friendly/responsive and ex...</p>
+                    </div>
+                </div>
+                <span>Transly, 6 hours ago</span>
+            </div>
+            <div class="rating-container">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-circle-check"></i>
+                    <span>Verified</span>
+                    <div>
+                        <p><b>All good thank you</b></p>
+                        <p>All good thank you</p>
+                    </div>
+                </div>
+                <span>David and Jane, 9 hours ago</span>
+            </div>
+            <div class="rating-container">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-circle-check"></i>
+                    <span>Verified</span>
+                    <div>
+                        <p><b>Quick delivery</b></p>
+                        <p>Needed a pair of lighter trail shoes so these seemed an ideal choice. Have tried them...</p>
+                    </div>
+                </div>
+                <span>Andrew Hanford, 9 hours ago</span>
+            </div>
+        </div>
+        <div class="rating-footer">
+            <p>Rated <b>4.5</b> / 5 based on <u>93.475 reviews</u>. showing our 5 star reviews.</p>
+            <i class="fa-solid fa-star"></i>
+            <span><b>Trustpilot</b></span>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer aria-label="footer" class="footer-section-container">
+        <div class="footer-form">
+            <div>
+                <h1>Sign up for our newsletter</h1>
+                <p>Get exclusive news and offers</p>
+            </div>
+            <div>
+                <div class="footer-signup">
+                    <input type="email" id="sign-up" name="sign-up" placeholder="Your email address">
+                    <label for="sign-up">Sign Up</label>
+                </div>
+                <p>By signing up you consent to receive updates by email about our latest new releases and our best special offers. We will never share your personal information with third parties for their marketing purposes and you can unsubscribe at any time. For more information please see our <span><b>privacy statement</b></span>.</p>
+            </div>
+        </div>
+        <div class="footer-social_links">
+            <div class="contact">
+                <h2>Reach Us</h2>
+                <a href = "#"><i class="fa-regular fa-comment"></i>Chat</a>
+                <a href = "#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
+                <a href = "#"><i class="fa-solid fa-phone"></i>Contact Us</a>
+                <a href = "#"><i class="fa-solid fa-cookie-bite"></i>Manage Cookie Settings</a>
+                <a href = "#"><i class="fa-solid fa-circle-info"></i>Customer Services: <br>Help Code: 388468</a>
+            </div>
+            <div class="social-media">
+                <h2>Social Media</h2>
+                <a href = "#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+                <a href = "#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href = "#"><i class="fa-brands fa-x-twitter"></i>Twitter</a>
+                <a href = "#"><i class="fa-brands fa-strava"></i>Strava</a>
+                <a href = "#"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                <a href = "#"><i class="fa-solid fa-link"></i>Komoot</a>
+            </div>
+            <div class="order-info">
+                <h2>Order Info</h2>
+                <a href = "#">Order Tracking</a>
+                <a href = "#">Delivery & Returns</a>
+                <a href = "#">Gift Vouchers</a>
+                <a href = "#">SportShoes Running Club</a>
+                <a href = "#">Student Discount</a>
+                <a href = "#">KLARNA</a>
+            </div>
+            <div class="customer-info">
+                <h2>Customer care</h2>
+                <a href = "#">Help Centre</a>
+                <a href = "#">Contact Us</a>
+                <a href = "#">My Account</a>
+                <a href = "#">ULTRA Membership Info</a>
+                <a href = "#">Price Beat Promise</a>
+            </div>
+            <div class="company-info">
+                <h2>Company Info</h2>
+                <a href = "#">About Us</a>
+                <a href = "#">Careers</a>
+                <a href = "#">Privacy Policy</a>
+                <a href = "#">Term & Conditions</a>
+                <a href = "#">Cookie Policy</a>
+                <a href = "#">Modern Slavery Statement</a>
+                <a href = "#">Sustainability</a>
+                <a href = "#">Newsroom</a>
+                <a href = "#">Discount Codes</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2025 Chatrapathi Sivaji Maharaj | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
