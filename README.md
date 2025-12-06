@@ -6,7 +6,7 @@ Designed with a clean UI, mobile-first layout, and real e-commerce style section
 ---
 
 ## 🌍 Live Demo  
-🔗 https://bharathbanti.github.io/P4-Sports-shoes-landing-page/
+🔗 https://bharathbanti.github.io/Sports-shoes-landing-page/
 
 ---
 
