@@ -27,7 +27,7 @@ Designed with a clean UI, mobile-first layout, and real e-commerce style section
 > Upload your screenshots inside a folder named `screenshots` and replace the image names below.
 
 ### 🖥 Desktop View  
-![Desktop Screenshot](./screenshots/desktop-view.jpg)
+![Desktop Screenshot](./screenshots/desktop-view.png)
 
 ### 📱 Mobile View  
 ![Mobile Screenshot](./screenshots/mobile-view.jpg)
