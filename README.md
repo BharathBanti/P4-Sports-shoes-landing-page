@@ -23,16 +23,6 @@ Designed with a clean UI, mobile-first layout, and real e-commerce style section
 
 ---
 
-## 📱 Screenshots  
-
-### 🖥 Desktop View  
-![Desktop Screenshot](./screenshots/desktop-view.png)
-
-### 📱 Mobile View  
-![Mobile Screenshot](./screenshots/mobile-view.jpg)
-
----
-
 ## 🧩 Tech Stack  
 - **HTML5**  
 - **CSS3** (Flexbox, Media Queries, Animations)  
